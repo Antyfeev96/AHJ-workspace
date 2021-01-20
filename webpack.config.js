@@ -1,4 +1,3 @@
-
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -26,10 +25,10 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'img/',
-              publicPath: 'img/'
-            }
-          }
-        ]
+              publicPath: 'img/',
+            },
+          },
+        ],
       },
       {
         test: /\.html$/,
